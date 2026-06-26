@@ -1,0 +1,28 @@
+{
+	"hooks": {
+		"SessionStart": [
+			{
+				"type": "command",
+				"cwd": "."
+			}
+		],
+		"PreToolUse": [
+			{
+				"type": "command",
+				"timeout": 15
+			}
+		],
+		"SessionEnd": [],
+		"userPromptSubmitted": [
+			{
+				"type": "command",
+				"cwd": "scripts",
+				"env": {
+					"LOG_LEVEL": "INFO"
+				}
+			}
+		],
+		"PostToolUse": [],
+		"ErrorOccurred": []
+	}
+}
