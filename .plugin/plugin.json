@@ -1,5 +1,11 @@
 {
 	"name": "my-custom-setup",
 	"version": "1.0.0",
-	"description": ""
+	"description": "",
+	"skills": "skills/",
+	"agents": "agents/",
+	"hooks": "hooks/hooks.json",
+	"commands": "commands",
+	"rules": "rules",
+	"mcpServers": ".mcp.json"
 }
